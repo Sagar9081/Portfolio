@@ -1,0 +1,114 @@
+.aboutimage {
+  height: 400px;
+  width: 320px;
+  border-radius: 50%;
+}
+
+.name1 {
+  font-family: "Denk One", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(233, 233, 233, 0.884);
+}
+.namebody {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  text-align: center;
+}
+
+.linkedin1 {
+  font-size: 40px;
+  color: #1967d2;
+}
+
+.twitter {
+  color: rgb(29, 155, 240);
+  font-size: 40px;
+}
+.whatsapp {
+  color: rgb(20, 190, 20);
+  font-size: 40px;
+}
+.mail {
+  color: #ea4335;
+  font-size: 40px;
+}
+.call {
+  color: #73028a;
+  font-size: 40px;
+}
+
+.social_links {
+  position: absolute;
+  left: 75%;
+  bottom: 0%;
+}
+.workbutton {
+  position: absolute;
+  top: 79%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.workbutton1 {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.workbutton2 {
+  position: absolute;
+  top: 79%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutimage {
+    height: 230px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .social_links {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+  }
+
+  .namebody {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    text-align: center;
+  }
+  .name1 {
+    font-family: "Denk One", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(31, 30, 30, 0.884);
+  }
+  .workbutton {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .workbutton1 {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .workbutton2 {
+    position: absolute;
+    top: 79%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
